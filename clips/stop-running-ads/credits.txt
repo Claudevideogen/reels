@@ -1,5 +1,0 @@
-clips/stop-running-ads/01_2340.mp4: Pixabay video 2340 by Life-Of-Vids (https://pixabay.com/videos/id-2340/)
-clips/stop-running-ads/02_2339.mp4: Pixabay video 2339 by Life-Of-Vids (https://pixabay.com/videos/id-2339/)
-clips/stop-running-ads/03_40813.mp4: Pixabay video 40813 by AlexKopeykin (https://pixabay.com/videos/id-40813/)
-clips/stop-running-ads/04_183448.mp4: Pixabay video 183448 by Amorn_mimi (https://pixabay.com/videos/id-183448/)
-clips/stop-running-ads/05_106038.mp4: Pixabay video 106038 by Alexandra_Koch (https://pixabay.com/videos/id-106038/)
