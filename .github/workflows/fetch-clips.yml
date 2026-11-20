@@ -29,7 +29,6 @@ jobs:
           hits = d.get('hits', [])
           if not hits: print('no results'); sys.exit(0)
           # prefer vertical, then longest
-          hits.sort(key=lambda h: (h['videos']['large']['height'] > h['videos']['large']['width'], h['downloads']), reverse=True)
           for k, h in enumerate(hits[:4]):
               v = h['videos']['large'] if h['videos']['large']['url'] else h['videos']['medium']
               out = f"clips/{name}/{int(i):02d}{'abcd'[k]}_{h['id']}.mp4"
