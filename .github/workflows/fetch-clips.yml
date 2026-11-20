@@ -17,7 +17,7 @@ jobs:
           set -e
           [ -n "$PIXABAY_API_KEY" ] || { echo "Missing PIXABAY_API_KEY secret"; exit 1; }
           for req in requests/*.txt; do
-            name=$(basename "$req" .txt); mkdir -p "clips/$name"; i=0
+            name=$(basename "$req" .txt); if [ -d "clips/$name" ]; then echo "skip $name"; continue; fi; mkdir -p "clips/$name"; i=0
             while IFS= read -r q; do
               [ -z "$q" ] && continue; i=$((i+1))
               enc=$(python3 -c "import urllib.parse,sys;print(urllib.parse.quote_plus(sys.argv[1]))" "$q")
@@ -31,7 +31,7 @@ jobs:
           # prefer vertical, then longest
           hits.sort(key=lambda h: (h['videos']['large']['height'] > h['videos']['large']['width'], h['downloads']), reverse=True)
           for k, h in enumerate(hits[:4]):
-              v = h['videos']['medium'] if h['videos']['medium']['url'] else h['videos']['small']
+              v = h['videos']['large'] if h['videos']['large']['url'] else h['videos']['medium']
               out = f"clips/{name}/{int(i):02d}{'abcd'[k]}_{h['id']}.mp4"
               subprocess.run(['curl', '-sSL', v['url'], '-o', out], check=True)
               open(f"clips/{name}/credits.txt", 'a').write(f"{out}: Pixabay video {h['id']} by {h['user']} ({h['pageURL']})\n")
