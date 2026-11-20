@@ -1,0 +1,41 @@
+name: Fetch Pixabay clips
+on:
+  push:
+    paths: ['requests/*.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download clips
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          set -e
+          [ -n "$PIXABAY_API_KEY" ] || { echo "Missing PIXABAY_API_KEY secret"; exit 1; }
+          for req in requests/*.txt; do
+            name=$(basename "$req" .txt); mkdir -p "clips/$name"; i=0
+            while IFS= read -r q; do
+              [ -z "$q" ] && continue; i=$((i+1))
+              enc=$(python3 -c "import urllib.parse,sys;print(urllib.parse.quote_plus(sys.argv[1]))" "$q")
+              curl -sS "https://pixabay.com/api/videos/?key=$PIXABAY_API_KEY&q=$enc&per_page=10&safesearch=true" -o /tmp/r.json
+              python3 - "$i" "$name" <<'PY'
+          import json, sys, subprocess
+          i, name = sys.argv[1], sys.argv[2]
+          d = json.load(open('/tmp/r.json'))
+          hits = d.get('hits', [])
+          if not hits: print('no results'); sys.exit(0)
+          # prefer vertical, then longest
+          hits.sort(key=lambda h: (h['videos']['large']['height'] > h['videos']['large']['width'], h['duration']), reverse=True)
+          h = hits[0]; v = h['videos']['large'] if h['videos']['large']['url'] else h['videos']['medium']
+          out = f"clips/{name}/{int(i):02d}_{h['id']}.mp4"
+          subprocess.run(['curl', '-sSL', v['url'], '-o', out], check=True)
+          open(f"clips/{name}/credits.txt", 'a').write(f"{out}: Pixabay video {h['id']} by {h['user']} ({h['pageURL']})\n")
+          PY
+            done < "$req"
+          done
+          git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
+          git add clips && git commit -m "Fetched clips" && git push || echo "nothing to commit"
