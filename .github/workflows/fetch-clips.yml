@@ -32,7 +32,11 @@ jobs:
           for k, h in enumerate(hits[:4]):
               v = h['videos']['large'] if h['videos']['large']['url'] else h['videos']['medium']
               out = f"clips/{name}/{int(i):02d}{'abcd'[k]}_{h['id']}.mp4"
-              subprocess.run(['curl', '-sSL', v['url'], '-o', out], check=True)
+              subprocess.run(['curl', '-sSL', v['url'], '-o', '/tmp/raw.mp4'], check=True)
+              # shrink: max 1920 on the long side, first 12s, no audio -> keeps files well under GitHub's 100MB limit
+              subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', '/tmp/raw.mp4', '-t', '12', '-an',
+                              '-vf', "scale='if(gt(iw,ih),min(1920,iw),-2)':'if(gt(iw,ih),-2,min(1920,ih))'",
+                              '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', out], check=True)
               open(f"clips/{name}/credits.txt", 'a').write(f"{out}: Pixabay video {h['id']} by {h['user']} ({h['pageURL']})\n")
           PY
             done < "$req"
