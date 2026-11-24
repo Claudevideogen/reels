@@ -63,7 +63,7 @@ ffmpeg -i reel.mp4 -vf "select='gt(scene,0.25)',showinfo" -f null - 2>&1 | grep 
 # 5) publish
 cp reel.mp4 /home/claude/reels/videos/<YYYY-MM-DD>-<slug>.mp4 ; append log.md ; commit + push
 #    URL: https://raw.githubusercontent.com/Claudevideogen/reels/main/videos/<file>.mp4 -> Metricool (see above)
-git push origin --delete clips-<slug> ; rm -rf clips/<slug>
+rm -rf clips/<slug>   # (deleting the clips-<slug> branch is blocked from the session; leave it — the owner prunes them monthly)
 ```
 Commit messages end with the Co-Authored-By / Claude-Session lines given by the session.
 
