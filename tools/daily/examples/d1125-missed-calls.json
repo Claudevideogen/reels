@@ -1,0 +1,115 @@
+{
+ "slug": "d1125-missed-calls",
+ "clips": "/home/claude/reels/clips/d1125-missed-calls",
+ "voices": {
+  "A": [
+   "am_michael",
+   1.12
+  ]
+ },
+ "lang": "en-us",
+ "music": {
+  "bpm": 96,
+  "root": 57,
+  "mode": "minor",
+  "seed": 25,
+  "energy": 0.7
+ },
+ "top": "",
+ "cta": [
+  "Send this to a contractor",
+  "who never picks up"
+ ],
+ "lines": [
+  {
+   "say": "You missed three calls today.",
+   "label": "3 MISSED CALLS",
+   "hl": [
+    "three"
+   ],
+   "clip": "../d1125b/01a_304045",
+   "cx": 0.35,
+   "off": 2.0
+  },
+  {
+   "say": "At five hundred a job, that's fifteen hundred dollars.",
+   "cap": "At $500 a job, that's $1,500.",
+   "label": "-$1,500",
+   "hit": true,
+   "hl": [
+    "$1,500."
+   ],
+   "clip": "02d_12437",
+   "cx": 0.5,
+   "off": 0.5
+  },
+  {
+   "say": "Not because you're lazy. You were on a job.",
+   "clip": "../d1125b/05b_159674",
+   "cx": 0.62,
+   "off": 0.5
+  },
+  {
+   "say": "Most people won't leave a voicemail. They just call the next guy.",
+   "hl": [
+    "next",
+    "guy."
+   ],
+   "clip": "../d1125b/01c_204421",
+   "gap": 0.18,
+   "cx": 0.5,
+   "off": 0.5
+  },
+  {
+   "say": "Here's what the busy owners do instead.",
+   "label": "THE FIX",
+   "hit": true,
+   "clip": "05d_366324",
+   "gap": 0.25,
+   "cx": 0.5,
+   "off": 0.5
+  },
+  {
+   "say": "Missed call? A text goes out in seconds.",
+   "label": "AUTO TEXT-BACK",
+   "hl": [
+    "seconds."
+   ],
+   "clip": "06b_348444",
+   "cx": 0.5,
+   "off": 0.5
+  },
+  {
+   "say": "They pick a time right from that text.",
+   "label": "BOOKED",
+   "clip": "../d1125b/06a_130213",
+   "cx": 0.6,
+   "off": 0.5
+  },
+  {
+   "say": "You finish the job, and they're already on your calendar.",
+   "hl": [
+    "calendar."
+   ],
+   "clip": "../d1125b/03a_62216",
+   "cx": 0.45,
+   "off": 3.0
+  },
+  {
+   "say": "That's one GoHighLevel workflow. Set it up once.",
+   "cap": "That's one GoHighLevel workflow. Set it up once.",
+   "label": "1 WORKFLOW",
+   "clip": "09c_39892",
+   "cx": 0.5,
+   "off": 0.5
+  },
+  {
+   "say": "Send this to a contractor who never picks up.",
+   "clip": "10d_67460",
+   "gap": 0.3,
+   "cx": 0.62,
+   "off": 0.5
+  }
+ ],
+ "tail": 1.8
+}

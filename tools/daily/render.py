@@ -49,6 +49,7 @@ def draw_caption(ov, i, t):
             col = YEL if j == act or words[j].strip('.,!?').upper() in [h.upper() for h in lines[i].get('hl', [])] else (255, 255, 255)
             d.text((x, y0 + r * 100), words[j], font=F_CAP, fill=col, stroke_width=7, stroke_fill=(0, 0, 0), anchor='lm'); x += F_CAP.getlength(words[j]) + sp
 def pop(ov, txt, f, y, t0, t, col=YEL, box=False):
+    while f.getlength(txt) > 900 and f.size > 60: f = font(f.size - 6)   # auto-fit long labels
     sc = 1 + .35 * (1 - ease((t - t0) / .16)); tw = int(f.getlength(txt)) + 80; th = int(f.size * 1.5)
     tmp = Image.new('RGBA', (tw, th), (0, 0, 0, 0)); td = ImageDraw.Draw(tmp)
     if box: td.rounded_rectangle([0, 0, tw-1, th-1], 30, fill=(255, 255, 255, 245)); td.text((tw/2, th/2), txt, font=f, fill=(15, 15, 15), anchor='mm')
