@@ -1,0 +1,104 @@
+{
+ "voices": {
+  "A": [
+   "am_eric",
+   1.08
+  ]
+ },
+ "music": {
+  "bpm": 106,
+  "root": 60,
+  "mode": "minor",
+  "seed": 103,
+  "energy": 0.65
+ },
+ "cta": [
+  "Send this to a contractor",
+  "with quotes going cold"
+ ],
+ "lines": [
+  {
+   "say": "You sent ten quotes last month.",
+   "cap": "You sent 10 quotes last month.",
+   "label": "10 QUOTES",
+   "clip": "b01a_87146",
+   "off": 1,
+   "cx": 0.3
+  },
+  {
+   "say": "Six never wrote back.",
+   "cap": "6 never wrote back.",
+   "label": "6 SILENT",
+   "hit": true,
+   "clip": "b01c_209854",
+   "off": 1,
+   "cx": 0.3
+  },
+  {
+   "say": "At two thousand dollars a job, that's twelve thousand dollars just sitting there.",
+   "cap": "At $2,000 a job, that's $12,000 just sitting there.",
+   "label": "$12,000",
+   "hit": true,
+   "clip": "03c_50628",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "They didn't say no. They just got busy, and forgot about you.",
+   "clip": "b03a_212511",
+   "off": 1,
+   "cx": 0.35
+  },
+  {
+   "say": "Here's the fix, in three steps.",
+   "label": "THE FIX",
+   "hit": true,
+   "gap": 0.4,
+   "clip": "05c_76888",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "One. Quote sent? A text goes out two days later.",
+   "cap": "1. Quote sent? A text goes out 2 days later.",
+   "label": "STEP 1",
+   "clip": "b02d_83870",
+   "off": 1,
+   "cx": 0.78
+  },
+  {
+   "say": "Two. No reply? A short email with photos of a job you finished.",
+   "cap": "2. No reply? A short email with photos of a job you finished.",
+   "label": "STEP 2",
+   "clip": "b05b_15356",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Three. Still quiet? One last text. Want me to hold your spot?",
+   "cap": "3. Still quiet? One last text: \"Want me to hold your spot?\"",
+   "label": "STEP 3",
+   "clip": "b02b_83866",
+   "off": 1,
+   "cx": 0.4
+  },
+  {
+   "say": "GoHighLevel runs all three while you're on the job.",
+   "clip": "b07a_4974",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Send this to a contractor with quotes going cold.",
+   "gap": 0.3,
+   "clip": "10a_8252",
+   "off": 1,
+   "cx": 0.5
+  }
+ ],
+ "slug": "d1202-quotes",
+ "clips": "/home/claude/reels/clips/d1202-quotes",
+ "lang": "en-us",
+ "tail": 1.8,
+ "top": ""
+}
