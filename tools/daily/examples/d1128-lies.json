@@ -1,0 +1,112 @@
+{
+ "voices": {
+  "A": [
+   "am_puck",
+   1.08
+  ]
+ },
+ "music": {
+  "bpm": 118,
+  "root": 62,
+  "mode": "major",
+  "seed": 63,
+  "energy": 0.8
+ },
+ "cta": [
+  "Tag the friend who says",
+  "number three every day"
+ ],
+ "lines": [
+  {
+   "say": "Things business owners say that are lies.",
+   "q": "businessman laughing",
+   "label": "LIES WE TELL",
+   "clip": "01b_32938",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "I'll follow up tomorrow.",
+   "q": "man desk paperwork",
+   "cap": "\"I'll follow up tomorrow.\"",
+   "label": "#1",
+   "clip": "02d_42305",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "I'll remember to ask for a review.",
+   "q": "cafe owner",
+   "cap": "\"I'll remember to ask for a review.\"",
+   "label": "#2",
+   "clip": "09a_137186",
+   "off": 1.0,
+   "cx": 0.8
+  },
+  {
+   "say": "I'll call them back after this job.",
+   "q": "mechanic repairing car",
+   "cap": "\"I'll call them back after this job.\"",
+   "label": "#3",
+   "clip": "04b_177415",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "I'll text everyone a reminder.",
+   "q": "dentist clinic",
+   "cap": "\"I'll text everyone a reminder.\"",
+   "label": "#4",
+   "clip": "05b_288787",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "We all mean it. We just forget.",
+   "q": "tired man office",
+   "gap": 0.3,
+   "clip": "06c_83875",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "So stop relying on memory.",
+   "q": "laptop office",
+   "label": "AUTOMATE IT",
+   "hit": true,
+   "clip": "07c_273927",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "Follow-ups, review requests, call-backs and reminders, all sent automatically.",
+   "q": "phone notifications",
+   "hl": [
+    "automatically."
+   ],
+   "clip": "../d1129-3-signs/09b_14214",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "That's exactly what GoHighLevel is built for.",
+   "q": "office team working",
+   "clip": "07b_273921",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "Tag the friend who says number three every single day.",
+   "q": "friends laughing",
+   "gap": 0.3,
+   "clip": "10c_202134",
+   "off": 1.0,
+   "cx": 0.5
+  }
+ ],
+ "slug": "d1128-lies",
+ "clips": "/home/claude/reels/clips/d1128-lies",
+ "lang": "en-us",
+ "tail": 1.8,
+ "top": ""
+}

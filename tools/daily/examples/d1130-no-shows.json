@@ -1,0 +1,109 @@
+{
+ "voices": {
+  "A": [
+   "am_liam",
+   1.08
+  ]
+ },
+ "music": {
+  "bpm": 100,
+  "root": 53,
+  "mode": "minor",
+  "seed": 88,
+  "energy": 0.7
+ },
+ "cta": [
+  "Send this to a clinic owner",
+  "tired of empty chairs"
+ ],
+ "lines": [
+  {
+   "say": "Four no-shows this week.",
+   "q": "empty waiting room chairs",
+   "label": "4 NO-SHOWS",
+   "clip": "01b_1057",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "At two hundred an appointment, that's eight hundred dollars.",
+   "q": "clock wall",
+   "cap": "At $200 an appointment, that's $800.",
+   "label": "-$800",
+   "hit": true,
+   "clip": "02c_65735",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "And you still paid your staff to wait.",
+   "q": "receptionist desk",
+   "clip": "03b_1028",
+   "off": 1.0,
+   "cx": 0.6
+  },
+  {
+   "say": "Most no-shows aren't rude. They just forgot.",
+   "q": "busy woman street phone",
+   "clip": "04a_129410",
+   "off": 1.0,
+   "cx": 0.4
+  },
+  {
+   "say": "Here's what full calendars do differently.",
+   "q": "smiling doctor",
+   "label": "THE FIX",
+   "hit": true,
+   "gap": 0.3,
+   "clip": "05a_49808",
+   "off": 1.0,
+   "cx": 0.6
+  },
+  {
+   "say": "A reminder text the day before.",
+   "q": "smartphone notification",
+   "label": "24H REMINDER",
+   "clip": "08d_3019",
+   "off": 1.0,
+   "cx": 0.6
+  },
+  {
+   "say": "Another one an hour before, with reply YES to confirm.",
+   "q": "woman texting",
+   "label": "1H REMINDER",
+   "hl": [
+    "YES"
+   ],
+   "clip": "07b_186535",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "Can't make it? The slot reopens and gets rebooked.",
+   "q": "calendar planner",
+   "clip": "03c_142370",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "Set it up once in GoHighLevel. It runs every day.",
+   "q": "dental clinic patient",
+   "clip": "09a_288798",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "Send this to a clinic owner who's tired of empty chairs.",
+   "q": "dentist smiling",
+   "gap": 0.3,
+   "clip": "10d_44223",
+   "off": 1.0,
+   "cx": 0.5
+  }
+ ],
+ "slug": "d1130-no-shows",
+ "clips": "/home/claude/reels/clips/d1130-no-shows",
+ "lang": "en-us",
+ "tail": 1.8,
+ "top": ""
+}

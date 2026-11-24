@@ -1,0 +1,118 @@
+{
+ "voices": {
+  "A": [
+   "af_heart",
+   1.08
+  ]
+ },
+ "music": {
+  "bpm": 104,
+  "root": 60,
+  "mode": "major",
+  "seed": 41,
+  "energy": 0.65
+ },
+ "cta": [
+  "Send this to someone who",
+  "still replies the next day"
+ ],
+ "lines": [
+  {
+   "say": "A lead filled out your form at nine forty-seven PM.",
+   "q": "woman laptop night couch",
+   "cap": "A lead filled out your form at 9:47 PM.",
+   "label": "9:47 PM",
+   "clip": "01a_203260",
+   "off": 1.0,
+   "cx": 0.78
+  },
+  {
+   "say": "You saw it at eight the next morning.",
+   "q": "man drinking coffee morning",
+   "cap": "You saw it at 8 the next morning.",
+   "label": "8:00 AM",
+   "clip": "02b_31672",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "By then, they'd already booked someone else.",
+   "q": "couple talking contractor house",
+   "hit": true,
+   "hl": [
+    "someone",
+    "else."
+   ],
+   "clip": "04a_40816",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "Not because the other guy was better.",
+   "q": "worker holding tools",
+   "clip": "04c_166808",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "He just answered first.",
+   "q": "man answering phone smiling",
+   "label": "FIRST WINS",
+   "hit": true,
+   "gap": 0.2,
+   "clip": "05a_142641",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "Here's how you get there first, even while you sleep.",
+   "q": "man sleeping bed",
+   "label": "THE FIX",
+   "gap": 0.3,
+   "clip": "06a_729",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "A form comes in, and a text goes out in seconds, with your booking link.",
+   "q": "smartphone notification",
+   "label": "INSTANT REPLY",
+   "hl": [
+    "seconds,"
+   ],
+   "clip": "07b_202987",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "They book while they're still on your website.",
+   "q": "woman smiling phone sofa",
+   "label": "BOOKED",
+   "clip": "08d_174009",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "One GoHighLevel workflow. It works at three AM.",
+   "q": "city night timelapse",
+   "cap": "One GoHighLevel workflow. It works at 3 AM.",
+   "label": "24/7",
+   "clip": "09d_344181",
+   "off": 1.0,
+   "cx": 0.5
+  },
+  {
+   "say": "Send this to someone who still replies the next day.",
+   "q": "woman laughing phone",
+   "gap": 0.3,
+   "clip": "10a_38084",
+   "off": 1.0,
+   "cx": 0.5
+  }
+ ],
+ "slug": "d1126-night-form",
+ "clips": "/home/claude/reels/clips/d1126-night-form",
+ "lang": "en-us",
+ "tail": 1.8,
+ "top": ""
+}

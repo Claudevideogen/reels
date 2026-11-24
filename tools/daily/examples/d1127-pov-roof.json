@@ -1,0 +1,118 @@
+{
+ "voices": {
+  "A": [
+   "am_fenrir",
+   1.08
+  ],
+  "B": [
+   "af_sarah",
+   1.05
+  ]
+ },
+ "music": {
+  "bpm": 110,
+  "root": 55,
+  "mode": "major",
+  "seed": 57,
+  "energy": 0.75
+ },
+ "top": "POV: you're a roofer",
+ "cta": [
+  "Send this to a roofer",
+  "who's lost one like this"
+ ],
+ "lines": [
+  {
+   "say": "You're up on a roof, and your phone starts ringing.",
+   "q": "roofer working roof",
+   "label": "POV",
+   "clip": "../d1125-missed-calls/02d_12437",
+   "off": 6.0,
+   "cx": 0.22
+  },
+  {
+   "say": "Hands full. Can't answer.",
+   "q": "worker hands tools",
+   "clip": "02a_10460",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Ten minutes later, you call back.",
+   "q": "man calling phone outdoor",
+   "label": "+10 MIN",
+   "clip": "03d_86866",
+   "off": 1,
+   "cx": 0.6
+  },
+  {
+   "say": "Oh, sorry. We already found someone.",
+   "q": "woman talking phone home",
+   "who": "B",
+   "cap": "\"Oh, sorry. We already found someone.\"",
+   "clip": "04d_174003",
+   "off": 1,
+   "cx": 0.6
+  },
+  {
+   "say": "That was a twelve thousand dollar roof.",
+   "q": "house roof",
+   "cap": "That was a $12,000 roof.",
+   "label": "-$12,000",
+   "hit": true,
+   "gap": 0.3,
+   "clip": "../d1127b/02c_141950",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Here's what fixes it.",
+   "q": "man smiling phone",
+   "label": "THE FIX",
+   "hit": true,
+   "gap": 0.3,
+   "clip": "../d1129-3-signs/05c_126557",
+   "off": 1,
+   "cx": 0.6
+  },
+  {
+   "say": "Missed call? They get a text back instantly.",
+   "q": "hands texting smartphone",
+   "label": "TEXT-BACK",
+   "hl": [
+    "instantly."
+   ],
+   "clip": "../d1130-no-shows/07c_204527",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Sorry I missed you, I'm on a job. When's a good time to call?",
+   "q": "smartphone message",
+   "who": "B",
+   "cap": "\"Sorry I missed you, I'm on a job. When's a good time?\"",
+   "clip": "08c_131161",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "They reply. You call back from the ground, and the job is still yours.",
+   "q": "construction worker phone",
+   "clip": "09c_40813",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Send this to a roofer who's lost one like this.",
+   "q": "construction workers laughing",
+   "gap": 0.3,
+   "clip": "10a_42923",
+   "off": 1,
+   "cx": 0.5
+  }
+ ],
+ "slug": "d1127-pov-roof",
+ "clips": "/home/claude/reels/clips/d1127-pov-roof",
+ "lang": "en-us",
+ "tail": 1.8
+}

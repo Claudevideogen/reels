@@ -1,0 +1,108 @@
+{
+ "voices": {
+  "A": [
+   "af_kore",
+   1.1
+  ]
+ },
+ "music": {
+  "bpm": 96,
+  "root": 58,
+  "mode": "major",
+  "seed": 95,
+  "energy": 0.65
+ },
+ "cta": [
+  "Send this to someone sitting",
+  "on an old customer list"
+ ],
+ "lines": [
+  {
+   "say": "You have five hundred past customers sitting in your phone.",
+   "q": "scrolling phone contacts",
+   "label": "500",
+   "clip": "01a_64594",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "You haven't talked to them in a year.",
+   "q": "man phone couch",
+   "clip": "02d_61298",
+   "off": 1,
+   "cx": 0.6
+  },
+  {
+   "say": "They still need you. They just forgot your name.",
+   "q": "homeowner house",
+   "clip": "03d_14476",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "So they Googled, and hired someone else.",
+   "q": "laptop search",
+   "label": "GONE",
+   "hit": true,
+   "clip": "04d_4941",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Here's the easiest money in your business.",
+   "q": "businessman smiling",
+   "label": "THE FIX",
+   "hit": true,
+   "gap": 0.3,
+   "clip": "05c_171044",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "One text to all of them. Hey, it's been a while. Need anything this month?",
+   "q": "hands texting smartphone",
+   "cap": "One text: \"Hey, it's been a while. Need anything this month?\"",
+   "label": "1 TEXT",
+   "clip": "06d_183448",
+   "off": 1,
+   "cx": 0.6
+  },
+  {
+   "say": "If just two percent reply, that's ten new jobs.",
+   "q": "happy worker",
+   "cap": "If just 2% reply, that's 10 new jobs.",
+   "label": "10 JOBS",
+   "hit": true,
+   "clip": "07a_293083",
+   "off": 1,
+   "cx": 0.6
+  },
+  {
+   "say": "From people who already trust you.",
+   "q": "handshake",
+   "clip": "08c_318026",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "GoHighLevel sends it, tracks the replies, and books them in.",
+   "q": "laptop office",
+   "clip": "04a_29879",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Send this to someone sitting on an old customer list.",
+   "q": "people laughing office",
+   "gap": 0.3,
+   "clip": "10d_87593",
+   "off": 1,
+   "cx": 0.5
+  }
+ ],
+ "slug": "d1201-old-customers",
+ "clips": "/home/claude/reels/clips/d1201-old-customers",
+ "lang": "en-us",
+ "tail": 1.8,
+ "top": ""
+}
