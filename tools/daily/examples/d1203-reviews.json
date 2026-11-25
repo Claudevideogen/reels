@@ -1,0 +1,106 @@
+{
+ "slug": "d1203-reviews",
+ "clips": "/home/claude/reels/clips/d1203-reviews",
+ "lang": "en-us",
+ "tail": 1.8,
+ "top": "",
+ "voices": {
+  "A": [
+   "af_nova",
+   1.1
+  ]
+ },
+ "music": {
+  "bpm": 112,
+  "root": 55,
+  "mode": "minor",
+  "seed": 117,
+  "energy": 0.7
+ },
+ "cta": [
+  "Send this to an owner",
+  "who deserves more reviews"
+ ],
+ "lines": [
+  {
+   "say": "A hundred happy customers this year.",
+   "cap": "100 happy customers this year.",
+   "label": "100 JOBS",
+   "clip": "../d1203b/01d_318027",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Nine Google reviews.",
+   "cap": "9 Google reviews.",
+   "label": "9 REVIEWS",
+   "hit": true,
+   "clip": "02a_736",
+   "off": 1,
+   "cx": 0.38
+  },
+  {
+   "say": "Myth: great work gets you reviews on its own.",
+   "label": "MYTH",
+   "clip": "../d1203b/02a_4973",
+   "off": 1,
+   "cx": 0.45
+  },
+  {
+   "say": "Reality: happy customers forget. Angry ones don't.",
+   "label": "REALITY",
+   "hit": true,
+   "hl": [
+    "forget",
+    "don't"
+   ],
+   "clip": "../d1203b/04b_61299",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Here's what fixes it.",
+   "label": "THE FIX",
+   "hit": true,
+   "gap": 0.4,
+   "clip": "../d1203b/02d_4729",
+   "off": 1,
+   "cx": 0.4
+  },
+  {
+   "say": "Job done? A text goes out that day, with a one-tap review link.",
+   "label": "SAME DAY",
+   "clip": "07c_47743",
+   "off": 1,
+   "cx": 0.55
+  },
+  {
+   "say": "No review in three days? One friendly reminder.",
+   "cap": "No review in 3 days? One friendly reminder.",
+   "label": "+3 DAYS",
+   "clip": "../d1203b/06d_129411",
+   "off": 1,
+   "cx": 0.55
+  },
+  {
+   "say": "Now the next person who Googles you sees proof.",
+   "label": "PROOF",
+   "clip": "01c_154835",
+   "off": 1,
+   "cx": 0.55
+  },
+  {
+   "say": "GoHighLevel sends both texts, after every single job.",
+   "clip": "09a_215751",
+   "off": 1,
+   "cx": 0.45
+  },
+  {
+   "say": "Send this to an owner who does great work, but has nine reviews to show for it.",
+   "gap": 0.3,
+   "clip": "../d1203b/01b_211204",
+   "off": 5.2,
+   "cx": 0.62
+  }
+ ]
+}

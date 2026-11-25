@@ -16,3 +16,4 @@
 | 2026-11-30 05:00 | no-shows | money leak | am_liam 1.08 | 100/53/minor/88 | 1057 65735 1028 129410 49808 3019 186535 142370 288798 44223 | 4 no-shows = -$800 |
 | 2026-12-01 05:00 | old-customers | reactivation | af_kore 1.1 | 96/58/major/95 | 64594 61298 14476 4941 171044 183448 293083 318026 29879 87593 | 500 past customers, 2% = 10 jobs |
 | 2026-12-02 05:00 | quotes | one quick win (3 steps) | am_eric 1.08 | 106/60/minor/103 | 87146 209854 50628 212511 76888 83870 15356 83866 4974 8252 | 10 quotes, 6 silent = $12,000 sitting there |
+| 2026-12-03 05:00 | reviews-myth | myth vs reality | af_nova 1.1 | 112/55/minor/117 | 318027 736 4973 61299 4729 47743 129411 154835 215751 211204 | 100 happy customers, 9 Google reviews |
