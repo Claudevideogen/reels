@@ -1,0 +1,106 @@
+{
+ "slug": "d1204-inbox",
+ "clips": "/home/claude/reels/clips/d1204-inbox",
+ "lang": "en-us",
+ "tail": 1.8,
+ "top": "",
+ "voices": {
+  "A": [
+   "am_adam",
+   1.1
+  ]
+ },
+ "music": {
+  "bpm": 102,
+  "root": 52,
+  "mode": "major",
+  "seed": 131,
+  "energy": 0.7
+ },
+ "cta": [
+  "Send this to an owner",
+  "with leads in 4 apps"
+ ],
+ "lines": [
+  {
+   "say": "Six leads came in today. You booked four.",
+   "cap": "6 leads came in today. You booked 4.",
+   "label": "6 LEADS",
+   "clip": "../d1204b/05b_366163",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "The other two sat in a Facebook message you never saw.",
+   "label": "-2 JOBS",
+   "hit": true,
+   "hl": [
+    "never saw"
+   ],
+   "clip": "../d1204b/02b_169445",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Before: texts, emails, DMs and voicemails, in four places.",
+   "label": "BEFORE",
+   "clip": "../d1204b/10a_9490",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "You check them at 9 PM. They already hired someone.",
+   "cap": "You check them at 9 PM. They already hired someone.",
+   "label": "9 PM",
+   "hit": true,
+   "clip": "04b_233390",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Here's the after.",
+   "label": "AFTER",
+   "hit": true,
+   "gap": 0.2,
+   "clip": "05b_2337",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Every message lands in one inbox, on your phone.",
+   "label": "ONE INBOX",
+   "clip": "03c_168343",
+   "off": 1,
+   "cx": 0.6
+  },
+  {
+   "say": "New leads get a text back in seconds, even mid-job.",
+   "label": "SECONDS",
+   "clip": "../d1204b/06c_4728",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Same six leads. None slip through.",
+   "cap": "Same 6 leads. None slip through.",
+   "label": "0 MISSED",
+   "hit": true,
+   "clip": "../d1204b/05a_366164",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "GoHighLevel puts it all in one place.",
+   "clip": "09c_27092",
+   "off": 1,
+   "cx": 0.4
+  },
+  {
+   "say": "Send this to an owner with leads in four different apps.",
+   "gap": 0.3,
+   "clip": "11d_80314",
+   "off": 1,
+   "cx": 0.45
+  }
+ ]
+}
