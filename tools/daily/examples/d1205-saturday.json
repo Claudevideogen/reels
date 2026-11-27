@@ -1,0 +1,108 @@
+{
+ "slug": "d1205-saturday",
+ "clips": "/home/claude/reels/clips/d1205-saturday",
+ "lang": "en-us",
+ "tail": 1.8,
+ "top": "POV: you're a plumber",
+ "voices": {
+  "A": [
+   "am_onyx",
+   1.15
+  ]
+ },
+ "music": {
+  "bpm": 98,
+  "root": 57,
+  "mode": "major",
+  "seed": 142,
+  "energy": 0.7
+ },
+ "cta": [
+  "Send this to a plumber",
+  "who never gets a night off"
+ ],
+ "lines": [
+  {
+   "say": "POV: you're a plumber, and it's Saturday night.",
+   "label": "SAT 8 PM",
+   "clip": "../d1205c/05b_51807",
+   "off": 1,
+   "cx": 0.55
+  },
+  {
+   "say": "Finally eating dinner with your kids.",
+   "clip": "../d1205c/08a_172686",
+   "off": 1,
+   "cx": 0.35
+  },
+  {
+   "say": "Your phone buzzes. Unknown number.",
+   "label": "UNKNOWN",
+   "clip": "../d1205d/01b_3176",
+   "off": 0.3,
+   "cx": 0.15
+  },
+  {
+   "say": "You let it ring. It's your night off.",
+   "clip": "../d1205c/02c_253997",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Her sink is leaking. She calls the next plumber.",
+   "clip": "../d1205c/07d_115",
+   "off": 1,
+   "cx": 0.4
+  },
+  {
+   "say": "Monday, you call back. Someone else fixed it.",
+   "label": "JOB GONE",
+   "hit": true,
+   "hl": [
+    "Someone else"
+   ],
+   "clip": "../d1205c/05c_34818",
+   "off": 1,
+   "cx": 0.55
+  },
+  {
+   "say": "Here's what the busy ones do.",
+   "label": "THE FIX",
+   "hit": true,
+   "gap": 0.3,
+   "clip": "../d1205c/02d_237643",
+   "off": 1,
+   "cx": 0.5
+  },
+  {
+   "say": "Missed call? She gets a text in seconds.",
+   "label": "TEXT-BACK",
+   "hl": [
+    "seconds."
+   ],
+   "clip": "../d1205d/01a_3180",
+   "off": 1.5,
+   "cx": 0.62
+  },
+  {
+   "say": "She sends a photo and books Monday's first slot.",
+   "label": "BOOKED",
+   "clip": "../d1205c/01b_180728",
+   "off": 1,
+   "cx": 0.4
+  },
+  {
+   "say": "GoHighLevel runs that while you eat.",
+   "clip": "02d_172667",
+   "off": 1,
+   "cx": 0.45
+  },
+  {
+   "say": "Send this to a plumber who never gets a night off.",
+   "gap": 0.3,
+   "clip": "../d1205c/09c_46637",
+   "off": 1,
+   "cx": 0.6
+  }
+ ]
+}
