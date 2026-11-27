@@ -72,3 +72,16 @@ See `tools/daily/examples/d1125-missed-calls.json`. Fields per line: `say` (spok
 e.g. "$1,500"), `label` (big pop text, short), `hit` (boom + flash on the cut), `hl` (words always yellow),
 `clip`, `off` (start second in clip), `cx`/`cy` (crop 0..1), `gap` (pause before line). Top-level: `voices`,
 `music` {bpm, root, mode, seed, energy}, `cta` (rows on the end card), `top` (optional header).
+
+## Learnings 2026-11-27 (weekly report, Nov 21–27; apply from the Dec 6 reel)
+Data: 3 reels, 19 views total (6/reel vs 46/reel the week before), 0 likes/saves/shares, followers 76 -> 74.
+Best hold: "9:47 PM form, seen 8 AM" (50% 3-s skip). Worst: "You missed three calls today" (86% skip, 3.2 s of 28 s).
+1. Hook = a contrast pair (two numbers/times in tension) as the big `label` on the FIRST line, spoken within 1.5 s,
+   money inside that first line. Reuse: "40 leads. 3 booked." / "9:47 PM form. Seen at 8 AM." / "10 quotes. 4 replies."
+2. Drop flat single-claim openers ("You missed 3 calls today") and dialogue-first skits (63–67% skip). A POV reel
+   is OK only if line 1 carries the contrast label.
+3. Length test: make the next 3 reels 15–20 s with the fix by ~8 s (overrides 22–30 s for those 3). Viewers leave at 3–5 s.
+4. On Tue, Thu and Sat schedule as Trial Reels: instagramData.type "TRIAL_REEL" (shown to non-followers first). If
+   Metricool rejects it, fall back to "REEL" and note it in log.md.
+5. Topics: after-hours speed-to-lead per niche: med spa consult request at 11 PM, dental new-patient call missed at
+   lunch, US/CA HVAC no-heat call at 6 AM in winter, AU broken-AC call on a summer weekend.
