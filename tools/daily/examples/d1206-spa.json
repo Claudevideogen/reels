@@ -1,0 +1,19 @@
+{
+ "slug": "d1206-spa",
+ "clips": "/home/claude/reels/clips/d1206-spa",
+ "lang": "en-us",
+ "tail": 1.8,
+ "top": "",
+ "voices": {"A": ["af_jessica", 1.1]},
+ "music": {"bpm": 108, "root": 59, "mode": "minor", "seed": 151, "energy": 0.68},
+ "cta": ["Send this to a med spa owner", "who replies the next morning"],
+ "lines": [
+  {"say": "Eleven PM inquiry. Ten AM reply. Six hundred dollars, gone.", "cap": "11 PM inquiry. 10 AM reply. $600, gone.", "label": "11 PM. 10 AM.", "hl": ["$600,"], "clip": "../d1206b/03d_169446", "off": 0.5, "cx": 0.5},
+  {"say": "She already booked the med spa that answered first.", "label": "BOOKED ELSEWHERE", "hit": true, "hl": ["answered", "first."], "clip": "02c_135152", "off": 1.0, "cx": 0.5},
+  {"say": "Here's the fix.", "label": "THE FIX", "hit": true, "gap": 0.2, "clip": "08d_29916", "off": 1.0, "cx": 0.5},
+  {"say": "Her request comes in. A text goes out in seconds.", "label": "INSTANT TEXT", "hl": ["seconds."], "clip": "../d1206b/03c_3172", "off": 1.0, "cx": 0.5},
+  {"say": "With your booking link. She picks a time right there.", "label": "BOOKED", "clip": "../d1206b/04d_83868", "off": 1.0, "cx": 0.6},
+  {"say": "GoHighLevel sends it while you sleep.", "clip": "01d_151297", "off": 1.0, "cx": 0.55},
+  {"say": "Send this to a med spa owner who replies the next morning.", "gap": 0.3, "clip": "08a_21147", "off": 1.0, "cx": 0.15}
+ ]
+}
