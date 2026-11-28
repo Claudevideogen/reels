@@ -85,3 +85,13 @@ Best hold: "9:47 PM form, seen 8 AM" (50% 3-s skip). Worst: "You missed three ca
    Metricool rejects it, fall back to "REEL" and note it in log.md.
 5. Topics: after-hours speed-to-lead per niche: med spa consult request at 11 PM, dental new-patient call missed at
    lunch, US/CA HVAC no-heat call at 6 AM in winter, AU broken-AC call on a summer weekend.
+
+## Update 2026-11-28 (overrides parts of the Nov 27 learnings: the roofer reel's numbers arrived after that report)
+- **Breakout: "POV: you're a roofer" (Nov 27): 557 views, 488 reach, 12 likes, 33% 3-s skip, 10.7 s avg watch.**
+  That's 70x the two reels before it and the first real likes on the account. Format: a persistent "POV: you're a <trade>"
+  header, two voices (owner + customer on the phone), a story with a twist ("we already found someone"), then "-$12,000".
+- So POV skits with two voices and a specific trade are NOT dropped: make one every 2–3 days, each with a different
+  trade (plumber, HVAC, electrician, dentist, med spa, landscaper). Keep the contrast/money label inside the first 3 s.
+- Note: the "1 comment" Metricool shows on most reels is our own auto first comment, not a viewer.
+- Reels with a dark or static first shot (a phone on a table, a dark room) were skipped hardest (86%). Open on a bright,
+  moving shot of a person working.
